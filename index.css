@@ -1,5 +1,4 @@
 body {
-    overflow: hidden;
     background: url(bg1.svg) no-repeat left top, url(bg2.svg) no-repeat right top;
     background-image: url(Images/IMG_3956.JPG);
     background-attachment: fixed;
@@ -7,6 +6,7 @@ body {
     -o-background-size: 100% auto, 100% auto;
     -webkit-background-size: 100% auto, 100% auto;
     background-size: 100% auto, 100% auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 /** reset page-wrapper */
@@ -15,7 +15,6 @@ body {
     position: relative;
     bottom: 0;
     left: 0;
-    overflow: hidden;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -419,8 +418,8 @@ footer {
     box-shadow: none;
 }
 footer img{
- padding-top: 10px;
- padding-bottom: 10px;
+ padding-top: 20px;
+ padding-bottom: 20px;
 }
 
 .zen-validate-html,
@@ -429,7 +428,6 @@ footer img{
 .zen-github,
 .zen-accessibility {
     position: relative;
-    overflow: hidden;
     padding: 0;
     height: 75px;
     border: none;
@@ -835,3 +833,7 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
         -webkit-animation: slider-requirements-p6 100s infinite linear;
         animation: slider-requirements-p6 100s infinite linear;
     }
+
+#firstOne{
+  
+}
