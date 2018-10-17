@@ -142,6 +142,17 @@ header {
         transform: rotateY(0) scale(1);
     }
 
+    header h3{
+      display:none;
+    }
+    header:hover h3{
+      display:flex;
+      font-family: 'Six Caps', sans-serif;
+      text-align: center;
+      margin-right:50px;
+      font-size: 37px;
+    }
+
 h1,
 h2 {
     position: static;
@@ -834,6 +845,87 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
         animation: slider-requirements-p6 100s infinite linear;
     }
 
-#firstOne{
-  
+    .whyus img{
+      width:400px;
+      height:300px;
+      object-fit:cover;
+      margin:0px;
+    }
+
+#whyus{
+  background-color:#FFF;
+  display:block;
+  margin:auto;
+}
+
+#whyus div{
+  display:flex;
+  margin:auto
+}
+
+#whyus div div{
+  display:inline;
+  margin:auto;
+  width:500px;
+  height:550px;
+}
+
+#whyus h3{
+  margin:0px;
+  text-align: justify;
+  font-family:'Six Caps', sans-serif;
+  font-size: 75px;
+}
+#whyus h4{
+  margin:0px;
+  text-align: justify;
+  font-family:'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+#ourmission{
+  background-image:url("Images/Jackson+look+into+sun.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  height:700px;
+  margin:auto;
+  color:#FFF;
+}
+#ourmission h1{
+  font-family: 'Six Caps', sans-serif;
+}
+#missioncaption{
+  padding-top: 10vh;
+  padding-left: 3vw;
+  width:50vw;
+}
+
+#ourteam{
+  background-color:#FFF;
+  margin:auto
+}
+#ourteamimage{
+  background-image:url(Images/Pack+Walk+1.jpg);
+  background-position: center;
+  margin-right:5vw;
+  margin-left:5vw;
+  width:90vw;
+  height:67.5vw;
+  color:#FFF;
+}
+#ourteamimage h1{
+  font-family: 'Six Caps', sans-serif;
+  text-align: center;
+  padding-top:6vw;
+}
+#ourteamimage h3{
+  text-align: center;
+  padding-top:35vw;
+  line-height: 2vw;
+}
+
+#emailupdates{
+  background-color: #000;
+  color: #FFF;
+  margin:auto;
 }
