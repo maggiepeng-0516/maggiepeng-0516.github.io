@@ -7,157 +7,60 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="index.css">
-	<link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Roboto:300|Ubuntu|Six+Caps" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Roboto:300|Ubuntu|Six+Caps|Coda+Caption:800" rel="stylesheet">
 	<script src="index.js"></script>
+
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Dave Shea">
 	<meta name="description" content="We're a Bay Area Dog Rescue working to re-home dogs of the housing crisis. We provide a safe-for-life promise to any dog that comes through our organization.">
 	<meta name="robots" content="all">
-
-
-	<!--[if lt IE 9]>
-	<script src="script/html5shiv.js"></script>
-	<![endif]-->
 </head>
 
-<!--
-
-
-
-	View source is a feature, not a bug. Thanks for your curiosity and
-	interest in participating!
-
-	Here are the submission guidelines for the new and improved csszengarden.com:
-
-	- CSS3? Of course! Prefix for ALL browsers where necessary.
-	- go responsive; test your layout at multiple screen sizes.
-	- your browser testing baseline: IE9+, recent Chrome/Firefox/Safari, and iOS/Android
-	- Graceful degradation is acceptable, and in fact highly encouraged.
-	- use classes for styling. Don't use ids.
-	- web fonts are cool, just make sure you have a license to share the files. Hosted
-	  services that are applied via the CSS file (ie. Google Fonts) will work fine, but
-	  most that require custom HTML won't. TypeKit is supported, see the readme on this
-	  page for usage instructions: https://github.com/mezzoblue/csszengarden.com/
-
-	And a few tips on building your CSS file:
-
-	- use :first-child, :last-child and :nth-child to get at non-classed elements
-	- use ::before and ::after to create pseudo-elements for extra styling
-	- use multiple background images to apply as many as you need to any element
-	- use the Kellum Method for image replacement, if still needed. http://goo.gl/GXxdI
-	- don't rely on the extra divs at the bottom. Use ::before and ::after instead.
-
-
--->
-<body id="css-zen-garden">
+<body id="beyond-rescue">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#"><img src="Images/beyond_rescue_logo.png"/></a>
+	    </div>
+	    <ul class="nav navbar-nav navbar-right">
+				<li><a href="#">PETS AND THE HOUSING CRISIS</a></li>
+				<li><a href="#">WHAT WE DO</a></li>
+				<li><a href="#">ADOPT</a></li>
+				<li><a href="#">FOSTER</a></li>
+				<li><a href="#">REHOME</a></li>
+				<li><a href="#">DONATE</a></li>
+				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">VOLUNTEER</a></li>
+					<li><a href="#">RESOURCES</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#">GALLERY</a></li>
+        </ul>
+	    </ul>
+	  </div>
+	</nav>
 <div class="page-wrapper">
 
-	<section class="intro" id="zen-intro">
+	<section class="intro" id="dog-intro">
 		<header role="banner">
 			<img src="Images/beyond_rescue_logo.png" style="width:400px;height:240px;-webkit-filter: invert(1); filter: invert(1)"/>
 			<h3>Saving dogs. Changing Lives. Building Community.</h3>
 		</header>
-
-		<div class="summary" id="zen-summary" role="article">
-			<p>Write Stuff Here</p>
-		</div>
-
-		<div class="preamble" id="zen-preamble" role="article">
-			<h3>Title Here</h3>
-			<p>Stuff Here</p>
-			<img src="Images/Lucas+001.jpg"/>
-		</div>
 	</section>
 
-	<div class="main supporting" id="zen-supporting" role="main">
-		<div class="explanation" id="zen-explanation" role="article">
-			<h3>Title Here</h3>
-			<p>More Stuff Here</p>
-		</div>
-
-		<div class="participation" id="zen-participation" role="article">
-			<h3>Title Here</h3>
-			<p>More Stuff Here</p>
-		</div>
-
-		<div class="benefits" id="zen-benefits" role="article">
-			<h3>Another Title Here</h3>
-			<p>Okden</p>
-		</div>
-
-		<div class="requirements" id="zen-requirements" role="article">
-			<h3>Hmmmm</h3>
-			<p>No</p>
-		</div>
-
 		<footer>
-			<img src="Icons/login.svg" style="width:80px;height:80px;"/>
-			<img src="Icons/mail.svg" style="width:80px;height:80px;"/>
-			<img src="Icons/favorites.svg" style="width:80px;height:80px;"/>
-			<img src="Icons/search.svg" style="width:80px;height:80px;"/>
-			<img src="Icons/faq.svg" style="width:80px;height:80px;"/>
+			<a href="#"><img src="Icons/login.svg" style="width:80px;height:80px;"/></a>
+			<a href="#"><img src="Icons/mail.svg" style="width:80px;height:80px;"/></a>
+			<a href="#"><img src="Icons/favorites.svg" style="width:80px;height:80px;"/></a>
+			<a href="#"><img src="Icons/search.svg" style="width:80px;height:80px;"/></a>
+			<a href="#"><img src="Icons/faq.svg" style="width:80px;height:80px;"/></a>
 		</footer>
 
 	</div>
-
-	<aside class="sidebar" role="complementary">
-		<div class="wrapper">
-
-			<div class="design-selection" id="design-selection">
-				<img src="Images/beyond_rescue_logo.png" style="width:200px;height:120px;"/>
-				<nav role="navigation">
-					<ul style="list-style-type: none;">
-					<li>
-						<h3 style="color:#000;">This is for a navbar.</h3>
-          </li>
-        	</ul>
-				</nav>
-			</div>
-			<!--<div class="design-archives" id="design-archives">
-				<h3 class="archives">More:</h3>
-				<nav role="navigation">
-					<ul>
-						<li class="next">
-							<a href="/214/page1">
-								Next Designs <span class="indicator">&rsaquo;</span>
-							</a>
-						</li>
-						<li class="viewall">
-							<a href="http://www.mezzoblue.com/zengarden/alldesigns/" title="View every submission to the Zen Garden.">
-								View All Designs							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-
-			<div class="zen-resources" id="zen-resources">
-				<h3 class="resources">Resources:</h3>
-				<ul>
-					<li class="view-css">
-						<a href="style.css" title="View the source CSS file of the currently-viewed design.">
-							View This Design&#8217;s <abbr title="Cascading Style Sheets">CSS</abbr>						</a>
-					</li>
-					<li class="css-resources">
-						<a href="http://www.mezzoblue.com/zengarden/resources/" title="Links to great sites with information on using CSS.">
-							<abbr title="Cascading Style Sheets">CSS</abbr> Resources						</a>
-					</li>
-					<li class="zen-faq">
-						<a href="http://www.mezzoblue.com/zengarden/faq/" title="A list of Frequently Asked Questions about the Zen Garden.">
-							<abbr title="Frequently Asked Questions">FAQ</abbr>						</a>
-					</li>
-					<li class="zen-submit">
-						<a href="http://www.mezzoblue.com/zengarden/submit/" title="Send in your own CSS file.">
-							Submit a Design						</a>
-					</li>
-					<li class="zen-translations">
-						<a href="http://www.mezzoblue.com/zengarden/translations/" title="View translated versions of this page.">
-							Translations						</a>
-					</li>
-				</ul>
-			</div>
-		</div>-->
-	</aside>
 </div>
 <div class="jumbotron" id="whyus">
 	<div>
@@ -194,9 +97,41 @@
 <div class="jumbotron" id="ourteam">
 	<div id="ourteamimage">
 		<h1>Our team</h1>
-		<h3>Beyond Rescue started with a small group of people who met inside the dog rescue community. We all bring different experiences, passions, and experties. We believe our diversity is our strength and allows us to be an open-minded and accepting organization.</h3>
+		<h3>Beyond Rescue started with a small group of people who met inside the dog rescue community. We all bring different experiences, passions, and expertise. We believe our diversity is our strength and allows us to be an open-minded and accepting organization.</h3>
 	</div>
 </div>
 <div class="jumbotron" id="emailupdates">
-	Receive email updates :D.
+	<a href="https://facebook.com/beyondrescue">
+		<img src="Icons/facebook.png" id="bigfacebook"/>
+	</a>
+	<a href="https://instagram.com/gobeyondrescue">
+		<img src="Icons/instagram.png" id="insta"/>
+	</a>
+	<div id="listemailseparator">
+		<div id="lists">
+			<ul id="bottomnav">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Events</a></li>
+			</ul>
+			<ul id="bottomnav2">
+				<li><a href="#">Ways to help</a></li>
+				<li><a href="#">Donate</a></li>
+				<li><a href="#">Foster</a></li>
+				<li><a href="#">Become a Volunteer</a></li>
+			</ul>
+			<ul id="contactinfo">
+				<li>First Name</li>
+				<li class="margined">Last Name</li>
+				<li class="margined">Email</li>
+			</ul>
+			<ul id="contactinfofields">
+				<li><input type="text"></input></li>
+				<li class="marginedinfo"><input type="text"></input></li>
+				<li class="marginedinfo"><input type="text"></input></li>
+				<button type="button" class="btn btn-success">SUBMIT</button>
+			</ul>
+		</div>
+	</div>
 </div>
