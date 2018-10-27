@@ -260,6 +260,24 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
   line-height: 2vw;
 }
 
+.navbar{
+  height:60px;
+  background-color: #FFF;
+  font-family:'Coda Caption', sans-serif;
+  font-size: 10px;
+  box-shadow:0px 5px 10px;
+}
+.navbar-brand img{
+  padding-top:0;
+  margin-top:0;
+  width:50px;
+  height:30px;
+}
+.navbar li{
+  margin-top:5px;
+  margin-left:20px;
+  text-decoration:none;
+}
 #emailupdates{
   background-color: #000;
   color: #FFF;
@@ -298,21 +316,4 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
   font-family: 'Coda Caption', sans-serif;
   font-size: 15px;
   margin-top:8px
-}
-.navbar{
-  height:60px;
-  background-color: #FFF;
-  font-family:'Coda Caption', sans-serif;
-  font-size: 10px;
-  box-shadow:0px 5px 10px;
-}
-.navbar-brand img{
-  padding-top:0;
-  margin-top:0;
-  width:50px;
-  height:30px;
-}
-.navbar li{
-  margin-top:5px;
-  margin-left:20px;
 }

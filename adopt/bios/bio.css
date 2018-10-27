@@ -1,0 +1,101 @@
+body{
+  background-image: url("../../Lucas+adoption+full+family");
+  background-color: #FFF;
+  font-family:'Roboto', sans-serif;
+}
+.navbar{
+  height:60px;
+  background-color: #FFF;
+  font-family:'Coda Caption', sans-serif;
+  font-size: 10px;
+  box-shadow:0px 5px 10px;
+}
+.navbar-brand img{
+  padding-top:0;
+  margin-top:0;
+  width:50px;
+  height:30px;
+}
+.navbar li{
+  margin-top:5px;
+  margin-left:20px;
+  text-decoration:none;
+}
+#bio{
+  margin-top:6vh;
+  margin-bottom:auto;
+  background-color: #FFF;
+  height:45vw;
+}
+#bio div{
+  display:inline-block;
+  width:50vw;
+  height:40vw;
+}
+#bio img{
+  width:40vw;
+  height:40vw;
+  object-fit: cover;
+  margin-left:2vw;
+}
+#emailupdates{
+  background-color: #000;
+  color: #FFF;
+  margin-top:6vh;
+  margin-bottom:auto;
+  font-family: 'Six Caps', sans-serif;
+}
+#emailupdates img{
+  filter: invert(1);
+  -webkit-filter:invert(1);
+  width:50px;
+  height:50px;
+}
+#bigfacebook{
+  margin-left:3vw;
+}
+#insta{
+  margin-left:1vw;
+}
+#lists{
+  display:flex;
+}
+#listemailseparator ul{
+  margin:10px;
+  margin-top:1vh;
+  font-size: 25px;
+  list-style-type:none;
+  color:#FFF
+}
+#contactinfo .margined{
+  margin-top:17px;
+}
+#contactinfofields .marginedinfo{
+  margin-top:8px;
+}
+#contactinfofields button{
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 15px;
+  margin-top:8px
+}
+footer {
+    position: fixed;
+    top: 45%;
+    right: -10px;
+    z-index: 2;
+    display: block;
+    margin-top: -200px;
+    padding: 0;
+    width: 75px;
+    height: 450px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow:0px 5px 10px;
+}
+footer img{
+  margin-top:5px;
+  margin-bottom:5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
