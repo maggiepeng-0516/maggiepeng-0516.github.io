@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Adopt | Beyond Rescue | A dog rescue in the Bay Area</title>
+	<title>Adopted | Beyond Rescue | A dog rescue in the Bay Area</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,31 +15,43 @@
 	<meta name="description" content="We're a Bay Area Dog Rescue working to re-home dogs of the housing crisis. We provide a safe-for-life promise to any dog that comes through our organization.">
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="../index.html"><img src="../Images/beyond_rescue_logo.png"/></a>
-	    </div>
-	    <ul class="nav navbar-nav navbar-right">
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img src="../Images/beyond_rescue_logo.png"/></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
 				<li><a href="#">PETS AND THE HOUSING CRISIS</a></li>
 				<li><a href="#">WHAT WE DO</a></li>
-				<li><a href="#">ADOPT</a></li>
+				<li><a class="dropdown-toggle" data-toggle="dropdown" href="./dogs.html">ADOPT<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">PROCESS</a></li>
+					<li><a href="./dogs.html">DOGS</a></li>
+					<li><a href="#">SUCCESSES</a></li>
+				</ul>
 				<li><a href="#">FOSTER</a></li>
 				<li><a href="#">REHOME</a></li>
 				<li><a href="#">DONATE</a></li>
 				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE<span class="caret"></span></a>
 				<ul class="dropdown-menu">
-          <li><a href="#">EVENTS</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">VOLUNTEER</a></li>
+					<li><a href="#">EVENTS</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">VOLUNTEER</a></li>
 					<li><a href="#">RESOURCES</a></li>
 					<li><a href="#">FAQ</a></li>
 					<li><a href="#">BLOG</a></li>
 					<li><a href="#">GALLERY</a></li>
-        </ul>
-	    </ul>
-	  </div>
-	</nav>
+				</ul>
+      </ul>
+    </div>
+  </div>
+</nav>
   <footer>
     <a href="#"><img src="../Icons/login.svg" style="width:80px;height:80px;"/></a>
     <a href="#"><img src="../Icons/mail.svg" style="width:80px;height:80px;"/></a>
@@ -48,24 +60,11 @@
     <a href="#"><img src="../Icons/faq.svg" style="width:80px;height:80px;"/></a>
   </footer>
   <div class="jumbotron" id="adoptables-page">
-    <ul>
       <li><figure><a href="bios/00000001.html"><img src="../Images/lucas+adoption+full+family.jpg" class="image"/><figcaption>Lucas-adopted!</figcaption></figure></a></li>
-      <li><figure class="margined"><a href="bios/00000002.html"><img src="../Images/Remy+adoption.jpg" class="image"/><figcaption>Remy-adopted!</figcaption></figure></a></li>
-      <li><figure class="margined"><a href="bios/00000003.html"><img src="../Images/Bodhi+1+smiles.jpg" class="image"/><figcaption>Bodhi-adopted!</figcaption></figure></a></li>
-      <li><figure class="margined"><a href="bios/00000004.html"><img src="../Images/Malbec+-+Gray+small+-+Male+3.jpeg" class="image"/><figcaption>Malbec-adopted!</figcaption></figure></a></li>
-    </ul>
-    <ul>
+      <li><figure><a href="bios/00000002.html"><img src="../Images/Remy+adoption.jpg" class="image"/><figcaption>Remy-adopted!</figcaption></figure></a></li>
+      <li><figure><a href="bios/00000003.html"><img src="../Images/Bodhi+1+smiles.jpg" class="image"/><figcaption>Bodhi-adopted!</figcaption></figure></a></li>
+      <li><figure><a href="bios/00000004.html"><img src="../Images/Malbec+-+Gray+small+-+Male+3.jpeg" class="image"/><figcaption>Malbec-adopted!</figcaption></figure></a></li>
       <li><figure><a href="bios/00000005.html"><img src="../Images/Prosecco+-+Gray+w+more+white+-+M.jpeg" class="image"/><figcaption>Prosecco-adopted!</figcaption></figure></a></li>
-      <li><figure class="margined"><a href="bios/00000006.html"><img src="../Images/Chardonnay+-+Gray+w+less+white+-+Female.jpeg" class="image"/><figcaption>Chardonnay</figcaption></figure></a></li>
-      <li><figure class="margined"><a href="bios/00000007.html"><img src="../Images/Cabernet+-+Solid+Black+-+Female.jpeg" class="image"/><figcaption>Cabernet</figcaption></figure></a></li>
-      <li><figure class="margined"><a href="bios/00000008.html"><img src="../Images/Pinot+Puppy.JPG" class="image"/><figcaption>Pinot</figcaption></figure></a></li>
-    </ul>
-    <ul>
-      <li><figure><a href="bios/00000009.html"><img src="../Images/Bordeaux+-+Black+lightning+-+Female.jpg" class="image"/><figcaption>Bordeaux</figcaption></figure></a></li>
-      <li><figure class="margined"><a href="bios/00000010.html"><img src="../Images/Reisling+white+speckled+nose+-+Male.jpeg" class="image"/><figcaption>Reisling</figcaption></figure></a></li>
-      <li><figure class="margined"><a href="bios/00000011.html"><img src="../Images/Merlot+-+White+speckled+nose+black+ear+-+wine+litter.jpeg" class="image"/><figcaption>Merlot</figcaption></a></figure></li>
-      <li><figure class="margined"><a href="bios/00000012.html"><img src="../Images/Rose+-+Gray+Large+-+Female+5.jpeg" class="image"/><figcaption>Rosé</figcaption></figure></a></li>
-    </ul>
 
   </div>
   <div class="jumbotron" id="emailupdates">
@@ -94,12 +93,12 @@
   				<li class="margined">Last Name</li>
   				<li class="margined">Email</li>
   			</ul>
-  			<ul id="contactinfofields">
-  				<li><input type="text"></input></li>
-  				<li class="marginedinfo"><input type="text"></input></li>
-  				<li class="marginedinfo"><input type="text"></input></li>
-  				<button type="button" class="btn btn-success">SUBMIT</button>
-  			</ul>
+				<ul id="contactinfofields">
+					<li><input type="text" placeholder="First Name"></input></li>
+					<li class="marginedinfo"><input type="text" placeholder="Last Name"></input></li>
+					<li class="marginedinfo"><input type="text" placeholder="Email"></input></li>
+					<button type="button" class="btn btn-success">GET UPDATES</button>
+				</ul>
   		</div>
   	</div>
   </div>

@@ -14,33 +14,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="We're a Bay Area Dog Rescue working to re-home dogs of the housing crisis. We provide a safe-for-life promise to any dog that comes through our organization.">
 </head>
-
-<body id="beyond-rescue">
 	<nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#"><img src="Images/beyond_rescue_logo.png"/></a>
-	    </div>
-	    <ul class="nav navbar-nav navbar-right">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="Images/beyond_rescue_logo.png"/></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
 				<li><a href="#">PETS AND THE HOUSING CRISIS</a></li>
 				<li><a href="#">WHAT WE DO</a></li>
-				<li><a href="./adopt/1.html">ADOPT</a></li>
+				<li><a class="dropdown-toggle" data-toggle="dropdown" href="./adopt/dogs.html">ADOPT<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">PROCESS</a></li>
+					<li><a href="./adopt/dogs.html">DOGS</a></li>
+					<li><a href="./adopt/adopted.html">SUCCESSES</a></li>
+				</ul>
 				<li><a href="#">FOSTER</a></li>
 				<li><a href="#">REHOME</a></li>
 				<li><a href="#">DONATE</a></li>
 				<li><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE<span class="caret"></span></a>
 				<ul class="dropdown-menu">
-          <li><a href="#">EVENTS</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">VOLUNTEER</a></li>
+					<li><a href="#">EVENTS</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">VOLUNTEER</a></li>
 					<li><a href="#">RESOURCES</a></li>
 					<li><a href="#">FAQ</a></li>
 					<li><a href="#">BLOG</a></li>
 					<li><a href="#">GALLERY</a></li>
-        </ul>
-	    </ul>
-	  </div>
-	</nav>
+				</ul>
+      </ul>
+    </div>
+  </div>
+</nav>
 <div class="page-wrapper">
 
 	<section class="intro" id="dog-intro">
@@ -61,19 +71,16 @@
 	</div>
 </div>
 <div class="jumbotron" id="whyus">
-	<div>
 		<div class="whyus">
 			<img src="Images/IMG_5007.JPG"/>
 			<h3>Quality experiences</h3>
 			<h4>We want everyone involved with Beyond Rescue to feel good about the role they play in helping dogs. When you become part of our community we will help you at all points along the journey. It’s all about the dogs, and saving dogs feels good.</h4>
 		</div>
-		<div class="whyus">
+		<div class="whyus" id="toobig">
 			<img src="Images/Molly+on+a+rock+2.JPG"/>
 			<h3>Matchmaking expertise</h3>
 			<h4>Matchmaking is our passion! We bring over 40 years of collective dog rescue experience, and our goal is to create a forever match with each adoption we make. We know our dogs, and we will equally take the time to get to know you and your adoption goals for a sucessful forever match!</h4>
 		</div>
-	</div>
-	<div>
 		<div class="whyus">
 			<img src="Images/Tyson+bench+D&B.jpg"/>
 			<h3>No judgement</h3>
@@ -85,7 +92,6 @@
 			<h4>Adoptions are exciting, but they can also be stressful. That's why we will be honest from the moment of intake till the day a dog goes home... and beyond.  Transparency is our top priority because that's what helps new forever homes to be forever!</h4>
 		</div>
 	</div>
-</div>
 <div class="jumbotron" id="ourmission">
 	<h1>Our Mission</h1>
 	<div id="missioncaption">
@@ -95,7 +101,7 @@
 <div class="jumbotron" id="ourteam">
 	<div id="ourteamimage">
 		<h1>Our team</h1>
-		<h3>Beyond Rescue started with a small group of people who met inside the dog rescue community. We all bring different experiences, passions, and expertise. We believe our diversity is our strength and allows us to be an open-minded and accepting organization.</h3>
+		<h3><b>Beyond Rescue started with a small group of people who met inside the dog rescue community. We all bring different experiences, passions, and expertise. We believe our diversity is our strength and allows us to be an open-minded and accepting organization.</b></h3>
 	</div>
 </div>
 <div class="jumbotron" id="emailupdates">
@@ -119,16 +125,11 @@
 				<li><a href="#">Foster</a></li>
 				<li><a href="#">Become a Volunteer</a></li>
 			</ul>
-			<ul id="contactinfo">
-				<li>First Name</li>
-				<li class="margined">Last Name</li>
-				<li class="margined">Email</li>
-			</ul>
 			<ul id="contactinfofields">
-				<li><input type="text"></input></li>
-				<li class="marginedinfo"><input type="text"></input></li>
-				<li class="marginedinfo"><input type="text"></input></li>
-				<button type="button" class="btn btn-success">SUBMIT</button>
+				<li><input type="text" placeholder="First Name"></input></li>
+				<li class="marginedinfo"><input type="text" placeholder="Last Name"></input></li>
+				<li class="marginedinfo"><input type="text" placeholder="Email"></input></li>
+				<button type="button" class="btn btn-success">GET UPDATES</button>
 			</ul>
 		</div>
 	</div>

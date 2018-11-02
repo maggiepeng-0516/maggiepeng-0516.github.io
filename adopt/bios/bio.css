@@ -21,20 +21,34 @@ body{
   margin-left:20px;
   text-decoration:none;
 }
+.nav{
+  background-color: #FFF;
+}
 #bio{
   margin-top:6vh;
   margin-bottom:auto;
   background-color: #FFF;
-  height:45vw;
+  height:auto;
 }
 #bio div{
-  display:inline-block;
-  width:50vw;
+  display:inline;
+  width:49vw;
   height:40vw;
+  margin-left:2vw;
+}
+#bio h3{
+  margin-left:2vw;
+  font-family:'Coda Caption',sans-serif;
+}
+#bio h4{
+  margin-left:2vw;
+}
+#bio h5{
+  margin-left:2vw;
 }
 #bio img{
-  width:40vw;
-  height:40vw;
+  width:50vh;
+  height:50vh;
   object-fit: cover;
   margin-left:2vw;
 }
@@ -53,14 +67,20 @@ body{
 }
 #bigfacebook{
   margin-left:3vw;
+  display:inline;
 }
 #insta{
   margin-left:1vw;
+  display:inline;
 }
 #lists{
-  display:flex;
+  display:block;
+}
+#listemailseparator{
+  display:inline;
 }
 #listemailseparator ul{
+  display:inline-block;
   margin:10px;
   margin-top:1vh;
   font-size: 25px;
@@ -72,6 +92,9 @@ body{
 }
 #contactinfofields .marginedinfo{
   margin-top:8px;
+}
+#contactinfofields input{
+  color:#000;
 }
 #contactinfofields button{
   font-family: 'Coda Caption', sans-serif;

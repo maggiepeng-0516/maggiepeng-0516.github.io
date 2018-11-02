@@ -19,6 +19,9 @@ body{
   margin-left:20px;
   text-decoration:none;
 }
+.nav{
+  background-color:#FFF;
+}
 #emailupdates{
   background-color: #000;
   color: #FFF;
@@ -56,6 +59,9 @@ body{
 #contactinfofields .marginedinfo{
   margin-top:8px;
 }
+#contactinfofields input{
+  color:#000;
+}
 #contactinfofields button{
   font-family: 'Coda Caption', sans-serif;
   font-size: 15px;
@@ -84,7 +90,7 @@ footer img{
 }
 #adoptables-page{
   margin:auto;
-  height:1155px;
+  height:auto;
   background-color: #FFF;
   display:block;
 }
@@ -113,6 +119,8 @@ footer img{
   height:300px;
   display:inline-block;
   margin-bottom: auto;
+  margin-left:40px;
+  margin-top:40px;
 }
 #adoptables-page li figcaption{
   margin:auto;
@@ -121,7 +129,4 @@ footer img{
 }
 .image{
   object-fit: cover;
-}
-.margined{
-  margin-left:30px;
 }

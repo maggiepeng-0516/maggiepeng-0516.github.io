@@ -3,11 +3,13 @@ body {
     background-image: url(Images/IMG_3956.JPG);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    -moz-background-size: 100% auto, 100% auto;
-    -o-background-size: 100% auto, 100% auto;
-    -webkit-background-size: 100% auto, 100% auto;
-    background-size: 100% auto, 100% auto;
+    background-size: cover;
+    background-position: right;
     font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+  background-color: #FFF;
 }
 
 /** reset page-wrapper */
@@ -91,8 +93,8 @@ header {
     }
 
     header::before {
-        top: -600px;
-        height: 600px;
+        top: -150px;
+        height: 400px;
         background: url(hook3.svg) no-repeat center bottom, url(layer-frame.svg) no-repeat center 559px;
         -moz-background-size: 360px auto, 450px auto;
         -o-background-size: 360px auto, 450px auto;
@@ -111,7 +113,7 @@ header {
     }
 
     header:hover {
-        top: 260px;
+        top: 150px;
         margin: 0 0 0 -190px;
         -moz-transform: rotateY(0) scale(1);
         -ms-transform: scale(1);
@@ -180,7 +182,6 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
     white-space: normal;
     line-height: 25px;
 }
-
     .whyus img{
       width:400px;
       height:300px;
@@ -190,20 +191,18 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
 
 #whyus{
   background-color:#FFF;
-  display:block;
+  display:inline-block;
   margin:auto;
+  height:auto;
 }
 
 #whyus div{
-  display:flex;
-  margin:auto
-}
-
-#whyus div div{
-  display:inline;
+  display:inline-block;
   margin:auto;
-  width:500px;
+  margin-left:15vw;
+  width:400px;
   height:550px;
+  overflow:hidden;
 }
 
 #whyus h3{
@@ -226,6 +225,7 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
   background-image:url("Images/Jackson+look+into+sun.jpg");
   background-size:cover;
   background-attachment:fixed;
+  background-position:right;
 }
 #ourmission h1{
   font-family: 'Six Caps', sans-serif;
@@ -233,7 +233,7 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
 #missioncaption{
   padding-top: 10vh;
   padding-left: 5vw;
-  width:45vw;
+  width:70vw;
 }
 
 #ourteam{
@@ -256,8 +256,11 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
 }
 #ourteamimage h3{
   text-align: center;
-  padding-top:35vw;
+  padding-bottom:0vw;
+  margin-bottom:0vw;
+  margin-top:80vh;
   line-height: 2vw;
+  font-size:15px;
 }
 
 .navbar{
@@ -275,8 +278,11 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
 }
 .navbar li{
   margin-top:5px;
-  margin-left:20px;
+  margin-left:0px;
   text-decoration:none;
+}
+.navbar li:hover{
+  color:#FFF;
 }
 #emailupdates{
   background-color: #000;
@@ -312,8 +318,86 @@ html:not([lang="zh-tw"]) .zen-resources .view-css a {
 #contactinfofields .marginedinfo{
   margin-top:8px;
 }
+#contactinfofields input{
+  color:#000;
+}
 #contactinfofields button{
   font-family: 'Coda Caption', sans-serif;
   font-size: 15px;
   margin-top:8px
+}
+@media only screen and (max-width: 552px) {
+  header{
+    position: absolute;
+    top: 40px;
+    left: 35%;
+    z-index: 4;
+    display: block;
+    margin: 0 0 0 -190px;
+    padding: 0;
+    width: 450px;
+  }
+  header:hover{
+    position: absolute;
+    top: 40px;
+    left: 35%;
+    z-index: 4;
+    display: block;
+    margin: 0 0 0 -190px;
+    padding: 0;
+    width: 450px;
+  }
+  header::before{
+    position: absolute;
+    top: 40px;
+    left: 35%;
+    z-index: 4;
+    display: block;
+    margin: 0 0 0 -190px;
+    padding: 0;
+    width: 450px;
+  }
+  header::after{
+    position: absolute;
+    top: 40px;
+    left: 35%;
+    z-index: 4;
+    display: block;
+    margin: 0 0 0 -190px;
+    padding: 0;
+    width: 450px;
+  }
+  header h3{
+    display:flex;
+    font-family: 'Six Caps', sans-serif;
+    text-align: center;
+    margin-right:50px;
+    font-size: 37px;
+  }
+}
+@media only screen and (max-width: 1169px){
+  #whyus div{
+    margin-left:30vw;
+  }
+}
+@media only screen and (max-width:642px){
+  #whyus div{
+    margin-left:2vw;
+  }
+}
+@media only screen and (max-width:1111px){
+  #ourteamimage h3{
+    margin-top:60vh;
+  }
+}
+@media only screen and (max-width:904px){
+  #ourteamimage h3{
+    margin-top:40vh;
+  }
+}
+@media only screen and (max-width:644px){
+  #ourteamimage h3{
+    margin-top:2vh;
+    line-height: normal;
+  }
 }
